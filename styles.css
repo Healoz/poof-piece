@@ -449,7 +449,7 @@ main {
     }
 
     .poof-piece-title h1 {
-        font-size: calc(100vw / 5);
+        font-size: calc(100vw / 7);
     }
 
     .splash-subtitle {
@@ -483,7 +483,7 @@ main {
     }
 
     .poof-piece-title h1 {
-        font-size: calc(100vw / 7);
+        font-size: calc(100vw / 10);
     }
     
 }
@@ -635,7 +635,7 @@ input {
     margin-bottom: 1.5rem;
     cursor: pointer;
     transition: var(--transition);
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
 .post-image {
@@ -748,7 +748,7 @@ input {
         grid-column: 2;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-        gap: 1.5rem;
+        gap: 2rem;
         margin-bottom: 4rem;
     }
 
@@ -758,7 +758,7 @@ input {
     }
 
     .blog-post-title {
-        font-size: 1.1rem;
+        font-size: 1.3rem;
     }
 
     .blog-post-title::after {
@@ -766,8 +766,8 @@ input {
     }
 
     .blog-date {
-        font-size: 0.8rem;
-        margin-top: unset;
+        font-size: 1rem;
+        /* margin-top: unset; */
     }
 
     .author-image {
@@ -785,14 +785,15 @@ input {
     }
 
     .author-name {
-        font-size: 0.9rem;
+        font-size: 1rem;
     }
 
     /* Highlighted post */
 
     .highlight-post {
-        grid-column: 1 / span 4;
-        grid-row: 1 / span 2;
+        grid-column: span 4;
+        grid-row: span 2;
+
     }
 
     .highlight-post .blog-post-tag {
@@ -1246,6 +1247,11 @@ input {
         width: 80%;
     }
 
+    .blog-content h2 {
+        margin-bottom: 3rem;
+        margin-top: 4rem;
+    }
+
     
 
 }
@@ -1270,9 +1276,7 @@ input {
     }
 
     .blog-content h2 {
-        font-family: 'Ubuntu', sans-serif;
-        font-weight: 500;
-        margin-bottom: 1rem;
+        margin-bottom: 3rem;
         font-size: 2rem;
     }
 
