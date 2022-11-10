@@ -664,28 +664,52 @@ input {
 
 /* Individual post images */
 
-#article-1 .post-image {
+.article-1 .post-image {
     background: rgba(255, 255, 255, 0) url(/images/pascal-bernardon-67sx2qVE048-unsplash.jpg) center center/cover no-repeat;
 }
 
-#article-2 .post-image {
+.article-1 .blog-post-title::after {
+    content: 'Blog post title - what is the post about?';
+}
+
+.article-2 .post-image {
     background: rgba(255, 255, 255, 0) url(/images/europeana-5TK1F5VfdIk-unsplash.jpg) center center/cover no-repeat;
 }
 
-#article-3 .post-image {
+.article-2 .blog-post-title::after {
+    content: 'TOP 10 QUEER BARS IN MELBOURNE';
+}
+
+.article-3 .post-image {
     background: rgba(255, 255, 255, 0) url(/images/monica-garniga-XClNDg9Z9Ag-unsplash.jpg) center center/cover no-repeat;
 }
 
-#article-4 .post-image {
+.article-3 .blog-post-title::after {
+    content: 'MY GAY JOURNEY WITH ELDEN RING';
+}
+
+.article-4 .post-image {
     background: rgba(255, 255, 255, 0) url(/images/mika-dUaf3cHs9Xk-unsplash.jpg) center center/cover no-repeat;
 }
 
-#article-5 .post-image {
+.article-4 .blog-post-title::after {
+    content: 'HOW DO I SUBMIT MY ARTWORK TO POOF PIECE?';
+}
+
+.article-5 .post-image {
     background: rgba(255, 255, 255, 0) url(/images/jens-schwan-7-TyF05u5Ww-unsplash.jpg) center center/cover no-repeat;
 }
 
-#article-6 .post-image {
+.article-5 .blog-post-title::after {
+    content: 'SO I JUST CAME OUT... WHAT NOW?';
+}
+
+.article-6 .post-image {
     background: rgba(255, 255, 255, 0) url(/images/ankit-verma--k8CMLIhG6E-unsplash.jpg) center center/cover no-repeat;
+}
+
+.article-6 .blog-post-title::after {
+    content: 'HOW TO HELP YOUR LOCAL QUEER COMMUNITY!';
 }
 
 .blog-post-tag {
@@ -746,6 +770,42 @@ input {
     border-width: 3px;
     border-top: unset;
     border-left: unset;
+}
+
+#author-1 {
+    background: rgba(255, 255, 255, 0) url(https://images.unsplash.com/photo-1598974357801-cbca100e65d3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80) center center/cover no-repeat;
+}
+
+#author-2 {
+    background: rgba(255, 255, 255, 0) url(https://images.unsplash.com/photo-1548142813-c348350df52b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=689&q=80) center center/cover no-repeat;
+}
+
+#author-3 {
+    background: rgba(255, 255, 255, 0) url(https://images.unsplash.com/photo-1550480082-dd9c35032f45?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80) center center/cover no-repeat;
+}
+
+#author-4 {
+    background: rgba(255, 255, 255, 0) url(https://images.unsplash.com/photo-1524854859347-bd2f42367134?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80) center center/cover no-repeat;
+}
+
+#author-5 {
+    background: rgba(255, 255, 255, 0) url(https://images.unsplash.com/photo-1598974357801-cbca100e65d3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80) center center/cover no-repeat;
+}
+
+#author-6 {
+    background: rgba(255, 255, 255, 0) url(https://images.unsplash.com/photo-1598974357801-cbca100e65d3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80) center center/cover no-repeat;
+}
+
+#author-7 {
+    background: rgba(255, 255, 255, 0) url(https://images.unsplash.com/photo-1524854859347-bd2f42367134?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80) center center/cover no-repeat;
+}
+
+#author-8 {
+    background: rgba(255, 255, 255, 0) url(https://images.unsplash.com/photo-1598974357801-cbca100e65d3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80) center center/cover no-repeat;
+}
+
+#author-9 {
+    background: rgba(255, 255, 255, 0) url(https://images.unsplash.com/photo-1524854859347-bd2f42367134?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80) center center/cover no-repeat;
 }
 
 .author-name {
@@ -978,24 +1038,72 @@ input {
     background: rgba(255, 255, 255, 0) url(/images/pascal-bernardon-67sx2qVE048-unsplash.jpg) center center/cover no-repeat;
 }
 
+#image-1 .gallery-img-info h4::after {
+    content: 'People looking spooked';
+}
+
+#image-1 .gallery-img-info h5::after {
+    content: 'Artsy Man';
+}
+
 #image-2 {
     background: rgba(255, 255, 255, 0) url(/images/europeana-5TK1F5VfdIk-unsplash.jpg) center center/cover no-repeat;
+}
+
+#image-2 .gallery-img-info h4::after {
+    content: 'Roses are red';
+}
+
+#image-2 .gallery-img-info h5::after {
+    content: 'Greg Greg';
 }
 
 #image-3 {
     background: rgba(255, 255, 255, 0) url(/images/monica-garniga-XClNDg9Z9Ag-unsplash.jpg) center center/cover no-repeat;
 }
 
+#image-3 .gallery-img-info h4::after {
+    content: 'Spaceman';
+}
+
+#image-3 .gallery-img-info h5::after {
+    content: 'Neil Armstrong';
+}
+
 #image-4 {
     background: rgba(255, 255, 255, 0) url(/images/mika-dUaf3cHs9Xk-unsplash.jpg) center center/cover no-repeat;
+}
+
+#image-4 .gallery-img-info h4::after {
+    content: 'Cool Graffiti';
+}
+
+#image-4 .gallery-img-info h5::after {
+    content: 'Rebel Girl';
 }
 
 #image-5 {
     background: rgba(255, 255, 255, 0) url(/images/jens-schwan-7-TyF05u5Ww-unsplash.jpg) center center/cover no-repeat;
 }
 
+#image-5 .gallery-img-info h4::after {
+    content: 'Random things';
+}
+
+#image-5 .gallery-img-info h5::after {
+    content: 'Lauren Leaster';
+}
+
 #image-6 {
     background: rgba(255, 255, 255, 0) url(/images/ankit-verma--k8CMLIhG6E-unsplash.jpg) center center/cover no-repeat;
+}
+
+#image-6 .gallery-img-info h4::after {
+    content: 'Very cool thing';
+}
+
+#image-6 .gallery-img-info h5::after {
+    content: 'Talented Artist';
 }
 
 /* Tablet size */
@@ -1075,7 +1183,7 @@ input {
     bottom: -40px;
     width: 100%;
     height: 5rem;
-    background: rgba(255, 255, 255, 0) url(/images/1-pink-rotated.png) center center/cover no-repeat;
+    background: rgba(255, 255, 255, 0) url(/images/1-pink-rotated-image.png) center center/cover no-repeat;
 }
 
 .image-popup-image {
@@ -1102,7 +1210,7 @@ input {
 
 .image-popup-info h3::after {
     position: absolute;
-    content: 'Artwork title Artwork Title';
+    content: 'People looking spooked';
     top: 1px;
     left: 1px;
     color: var(--purple);
@@ -1114,20 +1222,20 @@ input {
 }
 
 .image-exit-btn {
-    background-color: #400e33af;
+    background-color: #000000af;
     color: var(--light-pink);
     position: absolute;
     border-radius: 500px;
     top: 0;
     right: 0;
     margin: 1rem;
-    height: 2rem;
+    height: 2.5rem;
     cursor: pointer;
     display: flex;
     aspect-ratio: 1 / 1;
     justify-content: center;
     align-items: center;
-    font-size: 0.7rem;
+    font-size: 0.9rem;
 }
 
 /* Tablet size */
